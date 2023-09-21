@@ -1,2 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+public static void main(String[] args) {
+     Scanner read = new Scanner (System.in );
+     
+        System.out.println("Enter the school name :");
+        String n = read.next();
+        
+        School s1 = new School (n , 10);
